@@ -1,0 +1,29 @@
+:root{
+	--color-main: #ffe44d;
+}
+body {
+	margin: 0;
+	font-family: "Nunito", "Arial", "Helvetica", sans-serif;
+}
+.wrapper {
+	min-height: 100vh;
+	/* background-color: beige; */
+}
+.cards-container{
+	max-width: 1000px;
+	margin: auto;
+	padding: 30px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 30px; 
+}
+.btn{
+	width: max-content;
+	border: none;
+	border-radius: 30px;
+	padding: 8px 12px;
+	font-weight: 700;
+	background-color: var(--color-main);
+	height: max-content;
+	align-self: flex-start;
+}
